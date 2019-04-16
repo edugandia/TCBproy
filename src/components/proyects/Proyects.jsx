@@ -8,6 +8,7 @@ export default class Proyects extends Component {
     componentWillMount(){
         window.scrollTo(0,0)
     }
+    
     componentDidUpdate(prevProps) {
         if (this.props.proyectSelectedId !== prevProps.proyectSelectedId) {
           utils.scrollToId("proyectos-general-container")
@@ -40,6 +41,7 @@ export default class Proyects extends Component {
                                     <img src="./images/flecha-atras.png" alt="arrow-white" />
                                 </div>
                             </Link>
+
                             <h1>{infoProyects[this.props.proyectSelectedId].name}</h1>
                         </div>
                         <div className="text">

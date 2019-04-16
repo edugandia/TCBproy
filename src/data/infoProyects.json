@@ -10,6 +10,7 @@
             "v2": "./images/bear-vertical1.jpg"
         },
         "thumbnailImg": "./images/p1.png",
+        "prevImage": "./images/bear-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
@@ -24,6 +25,7 @@
             "v4": "./images/bear-vertical1.jpg"
         },
         "thumbnailImg": "./images/p2.png",
+        "prevImage": "./images/marben-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
@@ -37,6 +39,7 @@
             "v4": "./images/bear-vertical1.jpg"
         },
         "thumbnailImg": "./images/p3.png",
+        "prevImage": "./images/marben-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
@@ -50,6 +53,7 @@
             "v3": "./images/bear-vertical1.jpg"
         },
         "thumbnailImg": "./images/p4.png",
+        "prevImage": "./images/bear-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
@@ -62,6 +66,7 @@
             "v4": "./images/bear-vertical1.jpg"
         },
         "thumbnailImg": "./images/p5.png",
+        "prevImage": "./images/marben-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
@@ -73,6 +78,7 @@
             "v3": "./images/bear-vertical1.jpg"
         },
         "thumbnailImg": "./images/p6.png",
+        "prevImage": "./images/bear-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
@@ -84,6 +90,7 @@
             "h3": "./images/bear-horizontal3.jpg"
         },
         "thumbnailImg": "./images/p1.png",
+        "prevImage": "./images/marben-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
@@ -95,6 +102,7 @@
             "v2": "./images/bear-vertical1.jpg"
         },
         "thumbnailImg": "./images/p2.png",
+        "prevImage": "./images/marben-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
@@ -107,6 +115,7 @@
             "v3": "./images/bear-vertical1.jpg"
         },
         "thumbnailImg": "./images/p3.png",
+        "prevImage": "./images/bear-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     }
 ]

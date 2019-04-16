@@ -14,10 +14,6 @@ export default class Publicidad extends Component {
           <div className="text">
             <p>Lorem ipsum dolorsitamet,consect etueradip iscingelit,seddiam nonummyn  ibheuismodtin ciduntutlaoreetd oloremagnaa  liquam eratvolutpat.Utwisienim adminim eniam,quisnostrud exercitation.</p>
           </div>
-          <div id="video-container">
-            <iframe className="video" frameBorder="0" src="https://www.youtube.com/embed/90ZVG0xMlVI">
-            </iframe>
-          </div>
           <div className="carousel-6">
             <Carousel proyectIdPicker={this.props.proyectIdPicker} numberOfBoxes={6} />
           </div>

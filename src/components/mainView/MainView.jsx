@@ -21,7 +21,7 @@ export default class MainView extends Component {
   }
 
   componentDidMount(){
-    utils.goToId("video-container")
+    utils.goToId("publicidad-general-container")
   }
 
   render() {
