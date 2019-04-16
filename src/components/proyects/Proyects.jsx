@@ -10,7 +10,7 @@ export default class Proyects extends Component {
     }
     componentDidUpdate(prevProps) {
         if (this.props.proyectSelectedId !== prevProps.proyectSelectedId) {
-          utils.goToId("proyectos-general-container")
+          utils.scrollToId("proyectos-general-container")
         }
       }
 
