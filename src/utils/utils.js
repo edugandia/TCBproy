@@ -1,6 +1,12 @@
-const ScrollToId=id=>{
-    const elementToScroll = document.getElementById(id);
-    elementToScroll.scrollIntoView({ behavior: "smooth" });
+const utils = {
+    scrollToId: id => {
+        const elementToScroll = document.getElementById(id);
+        elementToScroll.scrollIntoView({ behavior: "smooth" });
+    }
+    ,
+    goToId: id => {
+        const elementToScroll = document.getElementById(id);
+        elementToScroll.scrollIntoView();
+    }
 }
-
-export default ScrollToId
+export default utils;

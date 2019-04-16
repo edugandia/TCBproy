@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './StickyLogo.scss';
-import ScrollToId from '../../../utils/utils';
+import utils from '../../../utils/utils';
 
 export default class StickyLogo extends Component {
     constructor() {
@@ -32,7 +32,7 @@ export default class StickyLogo extends Component {
     render() {
         return (
             <div className="logo-bar">
-                <img className={`sticky-logo-ontop ${this.state.isOnTop  === "unactive" && "sticky-logo"}`} onClick={() => ScrollToId("separator-container")} src={`./images/Tacubaya_${this.state.isMobile ? "tacubaya_mob" : this.props.sectionHover}.png`} alt="logo" />
+                <img className={`sticky-logo-ontop ${this.state.isOnTop  === "unactive" && "sticky-logo"}`} onClick={() => utils.scrollToId("separator-container")} src={`./images/Tacubaya_${this.state.isMobile ? "tacubaya_mob" : this.props.sectionHover}.png`} alt="logo" />
             </div>
         )
     }

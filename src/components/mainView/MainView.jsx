@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
-import StickyLogo from './stickyLogo'
+import utils from '../../utils/utils';
+import StickyLogo from './stickyLogo';
 import Menu from './menu';
 import Manifiesto from './manifiesto';
 import Publicidad from './publicidad';
@@ -18,6 +18,10 @@ export default class MainView extends Component {
 
   menuLogoToggle = section => {
     this.setState({ ...this.state, sectionHover: section })
+  }
+
+  componentDidMount(){
+    utils.goToId("video-container")
   }
 
   render() {

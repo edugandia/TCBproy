@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Menu.scss';
 
-import ScrollToId from '../../../utils/utils';
+import utils from '../../../utils/utils';
 
 export default class Menu extends Component {
   constructor() {
@@ -36,7 +36,7 @@ export default class Menu extends Component {
             this.openWavesMenu();
             this.props.menuLogoToggle("manifiesto")
           }} onClick={() => {
-            ScrollToId("manifiesto-general-container");
+            utils.scrollToId("manifiesto-general-container");
             this.closeWavesMenu()
           }}>
             {this.state.isOpen && <h3 className="slide-in-right title-menu title-menu-r pink">manifiesto</h3>}
@@ -47,7 +47,7 @@ export default class Menu extends Component {
             this.openWavesMenu();
             this.props.menuLogoToggle("publicidad")
           }} onClick={() => {
-            ScrollToId("publicidad-general-container");
+            utils.scrollToId("publicidad-general-container");
             this.closeWavesMenu()
           }}>
             {this.state.isOpen && <h3 className="slide-in-left title-menu title-menu-i yellow">publicidad</h3>}
@@ -58,7 +58,7 @@ export default class Menu extends Component {
             this.openWavesMenu();
             this.props.menuLogoToggle("transformacion")
           }} onClick={() => {
-            ScrollToId("transformacion-general-container");
+            utils.scrollToId("transformacion-general-container");
             this.closeWavesMenu()
           }}>
             {this.state.isOpen && <h3 className="slide-in-right title-menu title-menu-r blue">transformación<br/>digital</h3>}
@@ -69,7 +69,7 @@ export default class Menu extends Component {
             this.openWavesMenu();
             this.props.menuLogoToggle("contacto")
           }} onClick={this.state.isReallyOpen ? () => {
-            ScrollToId("contacto-general-container");
+            utils.scrollToId("contacto-general-container");
             this.closeWavesMenu()
           } : this.openWavesMenu}>
             {this.state.isOpen && <h3 className="slide-in-left title-menu title-menu-i green">contacto</h3>}

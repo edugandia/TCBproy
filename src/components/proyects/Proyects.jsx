@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
 import infoProyects from '../../data/infoProyects.json';
 import { Link, Redirect } from 'react-router-dom';
-
-// import StickyLogo from '../mainView/stickyLogo'
+import utils from '../../utils/utils'
 import './Proyects.scss';
 
 export default class Proyects extends Component {
+    componentWillMount(){
+        window.scrollTo(0,0)
+    }
+    componentDidUpdate(prevProps) {
+        if (this.props.proyectSelectedId !== prevProps.proyectSelectedId) {
+          utils.goToId("proyectos-general-container")
+        }
+      }
+
     render() {
         if (this.props.proyectSelectedId !== 0 && !this.props.proyectSelectedId) { return <Redirect to="/" /> }
         return (
