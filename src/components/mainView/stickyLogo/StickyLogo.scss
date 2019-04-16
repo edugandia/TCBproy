@@ -1,0 +1,22 @@
+
+.logo-bar {
+  z-index: 1;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  display: flex;
+    align-items: center;
+}
+
+.sticky-logo-ontop {
+  transition: 1s;
+  height: 100px;
+  margin: 0 calc(50% - 130px);
+}
+
+.sticky-logo {
+  cursor: pointer;
+  height: 80px;
+  margin: 0 calc(50% - 110px);
+}

@@ -1,0 +1,60 @@
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-box-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    transition: 3s;
+  }
+  
+  .carousel-box {
+    img {
+      width: 120px;
+      height: 120px;
+    }
+    .name-proyect-container {
+      position: absolute;
+      width: 120px;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p {
+        font-weight: bold;
+        text-align: center;
+        width: 90%;
+        line-height: 18px;
+        margin: 0;
+      }
+    }
+  }
+  
+  .carousel-box:hover {
+    .name-proyect-container {
+      display: flex;
+    }
+  }
+  
+  .carousel-add {
+    width: 15px;
+    height: 100px;
+    cursor: pointer;
+  }
+  
+  .carousel-substract {
+    width: 15px;
+    height: 100px;
+    transform: scaleX(-1);
+    cursor: pointer;
+  }
+  
+  .unactive-button {
+    opacity: 0.3;
+    cursor: auto;
+  }
+  

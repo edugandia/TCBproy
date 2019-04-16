@@ -1,0 +1,10 @@
+#manifiesto-general-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-container-manifiesto{
+  background-image: url("../../../assets/thumbnail_manifiesto.png");
+}

@@ -1,0 +1,149 @@
+//COLORS
+
+$color-pink: rgba(255, 74, 176, 0.4);
+$color-yellow: rgba(245, 212, 56, 0.4);
+$color-blue: rgba(0, 154, 207, 0.4);
+$color-green: rgba(47, 184, 139, 0.4);
+$color-dark-blue: rgb(24, 52, 76);
+
+.pink {
+  color: $color-pink;
+}
+.yellow {
+  color: $color-yellow;
+}
+.blue {
+  color: $color-blue;
+}
+.green {
+  color: $color-green;
+}
+
+.dark-blue {
+  color: $color-dark-blue;
+}
+
+//FONTS
+
+@font-face {
+  font-family: "Galano Black";
+  src: url("./assets/GalanoGrotesqueBlack.otf");
+}
+
+@font-face {
+  font-family: "Galano Light";
+  src: url("./assets/GalanoGrotesqueLight.otf");
+}
+
+@font-face {
+  font-family: "Galano Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/GalanoGrotesqueMedium.otf");
+}
+
+@font-face {
+  font-family: "Galano Semi Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/GalanoGrotesqueSemiBold.otf");
+}
+
+h1 {
+  font-family: "Galano Black";
+  font-size: 39px;
+  margin: 10px 0 25px 0;
+  line-height: 36px;
+}
+
+p {
+  font-family: "Galano Light";
+  font-size: 18px;
+  text-align: justify;
+  color: $color-dark-blue;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 6.5vw;
+    line-height: normal;
+  }
+  p {
+    font-size: 1.5vw;
+  }
+}
+
+//CONTAINERS
+
+* {
+  box-sizing: border-box;
+}
+
+#separator-container {
+  height: 20px;
+}
+
+.wave-container {
+  width: 100%;
+  margin-top: 100px;
+  img {
+    height: 40px;
+    width: 100%;
+  }
+}
+
+.content-container {
+  width: 80%;
+  height: 100%;
+  max-width: 1224px;
+  .text {
+    margin-top: 20px;
+    .signature {
+      text-align: end;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .wave-container {
+    margin-top: 110px;
+    img {
+      height: 80px;
+    }
+  }
+  .content-container {
+    width: 80%;
+    height: 100%;
+    max-width: 1224px;
+    .title {
+      margin-top: -20px;
+    }
+    .text {
+      margin-top: 20px;
+      .signature {
+        text-align: end;
+      }
+    }
+  }
+  .image-container {
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    width: 80%;
+    height: 34vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+    }
+    .low-opacity-box{
+      background-color: rgba(255, 255, 255, 0.8);
+      width: 75%;
+      height: 75%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+}
