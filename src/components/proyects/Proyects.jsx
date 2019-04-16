@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import infoProyects from '../../data/infoProyects.json';
 import { Link, Redirect } from 'react-router-dom';
 
-import StickyLogo from '../mainView/stickyLogo'
+// import StickyLogo from '../mainView/stickyLogo'
 import './Proyects.scss';
 
 export default class Proyects extends Component {
@@ -10,8 +10,8 @@ export default class Proyects extends Component {
         if (this.props.proyectSelectedId !== 0 && !this.props.proyectSelectedId) { return <Redirect to="/" /> }
         return (
             <div id="proyectos-general-container">
-                <div className="logo-bar">
-                    <img className={`sticky-logo`} src="./images/Tacubaya_tacubaya.png" alt="logo" />
+                <div className="logo-bar-proyects">
+                    <img className="sticky-logo-proyect" src="./images/Tacubaya_tacubaya_mob.png" alt="logo" />
                 </div>
                 <div className="wave-container wave-container-proyect">
                     <img src="./images/thumbnail_amarillo.png" alt="onda-ama" />
@@ -29,12 +29,37 @@ export default class Proyects extends Component {
                         <div className="title yellow proyect-title">
                             <Link to="/">
                                 <div className="home-link">
+                                    <img src="./images/flecha-atras.png" alt="arrow-white" />
                                 </div>
                             </Link>
                             <h1>{infoProyects[this.props.proyectSelectedId].name}</h1>
                         </div>
                         <div className="text">
                             <p>{infoProyects[this.props.proyectSelectedId].description}</p>
+                        </div>
+                        <div className="images-container">
+                            {infoProyects[this.props.proyectSelectedId].images.h1 &&
+                                <div className="row1">
+                                    <img src={infoProyects[this.props.proyectSelectedId].images.h1} alt="h1" />
+                                </div>}
+                            {(infoProyects[this.props.proyectSelectedId].images.v1 && infoProyects[this.props.proyectSelectedId].images.v2) &&
+                                <div className="row2">
+                                    {infoProyects[this.props.proyectSelectedId].images.v1 && <img src={infoProyects[this.props.proyectSelectedId].images.v1} alt="v1" />}
+                                    {infoProyects[this.props.proyectSelectedId].images.v2 && <img src={infoProyects[this.props.proyectSelectedId].images.v2} alt="v2" />}
+                                </div>}
+                            {infoProyects[this.props.proyectSelectedId].images.h2 &&
+                                <div className="row3">
+                                    <img src={infoProyects[this.props.proyectSelectedId].images.h2} alt="h1" />
+                                </div>}
+                            {infoProyects[this.props.proyectSelectedId].images.h3 &&
+                                <div className="row4">
+                                    <img src={infoProyects[this.props.proyectSelectedId].images.h3} alt="h1" />
+                                </div>}
+                            {(infoProyects[this.props.proyectSelectedId].images.v3 && infoProyects[this.props.proyectSelectedId].images.v4) &&
+                                <div className="row5">
+                                    {infoProyects[this.props.proyectSelectedId].images.v3 && <img src={infoProyects[this.props.proyectSelectedId].images.v3} alt="v1" />}
+                                    {infoProyects[this.props.proyectSelectedId].images.v4 && <img src={infoProyects[this.props.proyectSelectedId].images.v4} alt="v2" />}
+                                </div>}
                         </div>
                     </div>
                 </div>

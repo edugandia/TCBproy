@@ -1,63 +1,111 @@
 [
     {
         "id": 0,
-        "name": "Caser Seguros",
-        "images": ["./images/p1.png"],
+        "name": "Invisible Bear",
+        "images": {
+            "h1": "./images/bear-horizontal1.jpg",
+            "h2": "./images/bear-horizontal2.jpg",
+            "h3": "./images/bear-horizontal3.jpg",
+            "v1": "./images/bear-vertical1.jpg",
+            "v2": "./images/bear-vertical1.jpg"
+        },
         "thumbnailImg": "./images/p1.png",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
-    }, {
+    },
+    {
         "id": 1,
-        "name": "Caser Seguros1",
-        "images": ["./images/p2.png"],
+        "name": "Caser Seguros",
+        "images": {
+            "h1": "./images/bear-horizontal2.jpg",
+            "h2": "./images/bear-horizontal3.jpg",
+            "h3": "./images/bear-horizontal2.jpg",
+            "v1": "./images/bear-vertical1.jpg",
+            "v2": "./images/bear-vertical1.jpg",
+            "v4": "./images/bear-vertical1.jpg"
+        },
         "thumbnailImg": "./images/p2.png",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
         "id": 2,
-        "name": "Caser Seguros2",
-        "images": ["./images/p3.png"],
+        "name": "Caser Seguros",
+        "images": {
+            "h1": "./images/bear-horizontal2.jpg",
+            "h2": "./images/bear-horizontal2.jpg",
+            "h3": "./images/bear-horizontal3.jpg",
+            "v3": "./images/bear-vertical1.jpg",
+            "v4": "./images/bear-vertical1.jpg"
+        },
         "thumbnailImg": "./images/p3.png",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
         "id": 3,
-        "name": "Caser Seguros3",
-        "images": ["./images/p4.png"],
+        "name": "Inbisible Bear 2",
+        "images": {
+            "h1": "./images/bear-horizontal3.jpg",
+            "h2": "./images/bear-horizontal2.jpg",
+            "h3": "./images/bear-horizontal2.jpg",
+            "v1": "./images/bear-vertical1.jpg",
+            "v3": "./images/bear-vertical1.jpg"
+        },
         "thumbnailImg": "./images/p4.png",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
         "id": 4,
-        "name": "Caser Seguros4",
-        "images": ["./images/p5.png"],
+        "name": "imbisible bear",
+        "images": {
+            "h1": "./images/bear-horizontal3.jpg",
+            "h2": "./images/bear-horizontal1.jpg",
+            "v3": "./images/bear-vertical1.jpg",
+            "v4": "./images/bear-vertical1.jpg"
+        },
         "thumbnailImg": "./images/p5.png",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
         "id": 5,
         "name": "Caser Seguros5",
-        "images": ["./images/p6.png"],
+        "images": {
+            "h2": "./images/bear-horizontal3.jpg",
+            "h3": "./images/bear-horizontal1.jpg",
+            "v3": "./images/bear-vertical1.jpg"
+        },
         "thumbnailImg": "./images/p6.png",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
         "id": 6,
         "name": "Caser Seguros6",
-        "images": ["./images/p1.png"],
+        "images": {
+            "h1": "./images/bear-horizontal1.jpg",
+            "h2": "./images/bear-horizontal3.jpg",
+            "h3": "./images/bear-horizontal3.jpg"
+        },
         "thumbnailImg": "./images/p1.png",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
         "id": 7,
         "name": "Caser Seguros7",
-        "images": ["./images/p2.png"],
+        "images": {
+            "h1": "./images/bear-horizontal3.jpg",
+            "v1": "./images/bear-vertical1.jpg",
+            "v2": "./images/bear-vertical1.jpg"
+        },
         "thumbnailImg": "./images/p2.png",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
         "id": 8,
         "name": "Caser Seguros8",
-        "images": ["./images/p3.png"],
+        "images": {
+            "h1": "./images/bear-horizontal3.jpg",
+            "h2": "./images/bear-horizontal3.jpg",
+            "v2": "./images/bear-vertical1.jpg",
+            "v3": "./images/bear-vertical1.jpg"
+        },
         "thumbnailImg": "./images/p3.png",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     }
