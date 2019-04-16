@@ -6,7 +6,7 @@ import infoProyects from './data/infoProyects.json'
 import MainView from './components/mainView';
 import AvisoLegal from './components/avisoLegal';
 // import PoliticaPrivacidad from './components/politicaPrivacidad';
-import PoliticaCookies from './components/politicaCookies';
+// import PoliticaCookies from './components/politicaCookies';
 import Proyects from './components/proyects';
 import Footer from './components/footer';
 
@@ -76,7 +76,7 @@ class App extends Component {
             )}
           />
         </Switch>
-        <PoliticaCookies />
+        {/* <PoliticaCookies /> */}
         <Footer />
       </div>
     );

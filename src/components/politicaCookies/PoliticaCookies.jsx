@@ -9,13 +9,13 @@ constructor(){
   }
 }
   closeBanner = () => {
-    this.state({ ...this.state, closeBanner: true })
+    this.setState({ ...this.state, closeBanner: true })
   }
 
   render() {
     return (
-      <div className="cookies-banner">
-        <button onClick={this.closeBanner}>Aceptar</button>
+      <div className={this.state.closeBanner && "desapear"} className="cookies-banner">
+        <button onClick={this.closeBanner} >Aceptar</button>
       </div>
     )
   }

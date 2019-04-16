@@ -15,7 +15,7 @@ export default class TransformacionDigital extends Component {
           </div>
         </div>
         <div className="image-container image-container-transformacion">
-          <div className="low-opacity-box">
+          {/* <div className="low-opacity-box">
             <div className="brands-conatainer">
               <div className="transformacion-box">
                 <img src="./images/carrefour.png" alt="carrefour-ico" />
@@ -29,7 +29,7 @@ export default class TransformacionDigital extends Component {
                 <img src="./images/loreal.png" alt="loreal-ico" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     )
