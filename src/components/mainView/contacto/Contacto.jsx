@@ -7,7 +7,7 @@ export default class Contacto extends Component {
     return (
       <div id="contacto-general-container">
         <div className="wave-container">
-          <img src="./images/thumbnail_verde.png" alt="onda-verde" />
+          <img src="./images/Wave_green_v01.gif" alt="onda-verde" />
         </div>
         <div className="content-container">
           <div className="title green"><h1>contacto</h1></div>

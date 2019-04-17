@@ -7,10 +7,10 @@ export default class Publicidad extends Component {
     return (
       <div id="publicidad-general-container">
         <div className="wave-container">
-          <img src="./images/thumbnail_amarillo.png" alt="onda-azul" />
+          <img src="./images/Wave_cyan_v01.gif" alt="onda-azul" />
         </div>
         <div className="content-container">
-          <div className="title yellow"><h1>publicicdad</h1></div>
+          <div className="title yellow"><h1>publicidad</h1></div>
           <div className="text">
             <p>Lorem ipsum dolorsitamet,consect etueradip iscingelit,seddiam nonummyn  ibheuismodtin ciduntutlaoreetd oloremagnaa  liquam eratvolutpat.Utwisienim adminim eniam,quisnostrud exercitation.</p>
           </div>

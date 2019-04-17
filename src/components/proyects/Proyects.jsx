@@ -23,7 +23,7 @@ export default class Proyects extends Component {
                     <img className="sticky-logo-proyect" src="./images/Tacubaya_tacubaya_mob.png" alt="logo" />
                 </div>
                 <div className="wave-container wave-container-proyect">
-                    <img src="./images/thumbnail_amarillo.png" alt="onda-ama" />
+                    <img src="./images/Wave_cyan_v01.gif" alt="onda-ama" />
                 </div>
                 <div className="body-proyect-container">
                     <div className="proyect-navigation">

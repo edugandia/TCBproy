@@ -6,7 +6,7 @@ export default class TransformacionDigital extends Component {
     return (
       <div id="transformacion-general-container">
         <div className="wave-container">
-          <img src="./images/thumbnail_azul.png" alt="onda-azul" />
+          <img src="./images/Wave_blue_v01.gif" alt="onda-azul" />
         </div>
         <div className="content-container">
           <div className="title blue"><h1>transformación digital</h1></div>

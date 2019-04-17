@@ -6,7 +6,7 @@ export default class Manifiesto extends Component {
     return (
       <div id="manifiesto-general-container">
         <div className="wave-container">
-          <img src="./images/thumbnail_rosa.png" alt="onda-rosa" />
+          <img src="./images/Wave_pink_v01.gif" alt="onda-rosa" />
         </div>
         <div className="content-container">
           <div className="title pink"><h1>manifiesto</h1></div>
