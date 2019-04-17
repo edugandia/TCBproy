@@ -19,9 +19,9 @@ export default class Proyects extends Component {
         if (this.props.proyectSelectedId !== 0 && !this.props.proyectSelectedId) { return <Redirect to="/" /> }
         return (
             <div id="proyectos-general-container">
-                <div className="logo-bar-proyects">
+                <Link to="/" className="logo-bar-proyects">
                     <img className="sticky-logo-proyect" src="./images/Tacubaya_tacubaya_mob.png" alt="logo" />
-                </div>
+                </Link>
                 <div className="wave-container wave-container-proyect">
                     <img src="./images/Wave_cyan_v01.gif" alt="onda-ama" />
                 </div>
@@ -38,7 +38,7 @@ export default class Proyects extends Component {
                         <div className="title yellow proyect-title">
                             <Link to="/">
                                 <div className="home-link">
-                                    <img src="./images/flecha-atras.png" alt="arrow-white" />
+                                    <img src="./images/flecha-amarilla.png" alt="arrow-white" />
                                 </div>
                             </Link>
 

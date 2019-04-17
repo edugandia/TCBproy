@@ -15,21 +15,6 @@ export default class TransformacionDigital extends Component {
           </div>
         </div>
         <div className="image-container-m image-container-transformacion">
-          {/* <div className="low-opacity-box">
-            <div className="brands-conatainer">
-              <div className="transformacion-box">
-                <img src="./images/carrefour.png" alt="carrefour-ico" />
-                <img src="./images/marben.png" alt="marben-ico" />
-                <img src="./images/pernod.png" alt="pernod-ico" />
-              </div>
-              <div className="transformacion-box">
-                <img src="./images/santander.png" alt="santander-ico" />
-                <img src="./images/caser.png" alt="caser-ico" />
-                <img src="./images/bear.png" alt="bear-ico" />
-                <img src="./images/loreal.png" alt="loreal-ico" />
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     )

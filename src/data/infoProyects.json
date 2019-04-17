@@ -15,7 +15,7 @@
     },
     {
         "id": 1,
-        "name": "Marben Solutions",
+        "name": "Marben",
         "images": {
             "h1": "./images/marben-horizontal1.jpg",
             "h2": "./images/marben-horizontal2.jpg",
@@ -43,7 +43,7 @@
     },
     {
         "id": 3,
-        "name": "Marben Solutions",
+        "name": "Marben",
         "images": {
             "h1": "./images/marben-horizontal1.jpg",
             "h2": "./images/marben-horizontal2.jpg",
@@ -71,7 +71,7 @@
     },
     {
         "id": 5,
-        "name": "Marben Solutions",
+        "name": "Marben",
         "images": {
             "h1": "./images/marben-horizontal1.jpg",
             "h2": "./images/marben-horizontal2.jpg",
@@ -99,7 +99,7 @@
     },
     {
         "id": 7,
-        "name": "Marben Solutions",
+        "name": "Marben",
         "images": {
             "h1": "./images/marben-horizontal1.jpg",
             "h2": "./images/marben-horizontal2.jpg",

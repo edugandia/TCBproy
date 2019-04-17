@@ -1,9 +1,9 @@
 //COLORS
 
-$color-pink: rgba(255, 74, 176, 0.4);
-$color-yellow: rgba(245, 212, 56, 0.4);
-$color-blue: rgba(0, 154, 207, 0.4);
-$color-green: rgba(47, 184, 139, 0.4);
+$color-pink: #e399cb;
+$color-yellow: #f9f0b5 ;
+$color-blue: #99d7f1;
+$color-green: #c7dfce;
 $color-dark-blue: rgb(24, 52, 76);
 
 .pink {
@@ -126,7 +126,7 @@ p {
   background-position: top;
   margin-top: 20px;
   width: 100vw;
-  height: 50vw;
+  height: 40vw;
   display: flex;
   justify-content: center;
   align-items: center;

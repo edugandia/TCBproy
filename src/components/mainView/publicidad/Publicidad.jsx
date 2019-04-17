@@ -14,12 +14,13 @@ export default class Publicidad extends Component {
           <div className="text">
             <p>Lorem ipsum dolorsitamet,consect etueradip iscingelit,seddiam nonummyn  ibheuismodtin ciduntutlaoreetd oloremagnaa  liquam eratvolutpat.Utwisienim adminim eniam,quisnostrud exercitation.</p>
           </div>
-          <div className="carousel-6">
-            <Carousel proyectIdPicker={this.props.proyectIdPicker} numberOfBoxes={6} />
-          </div>
-          <div className="carousel-2">
-            <Carousel proyectIdPicker={this.props.proyectIdPicker} numberOfBoxes={2} />
-          </div>
+        </div>
+        <div className="image-container-m image-container-publicidad"></div>
+        <div className="carousel-6">
+          <Carousel proyectIdPicker={this.props.proyectIdPicker} numberOfBoxes={6} />
+        </div>
+        <div className="carousel-2">
+          <Carousel proyectIdPicker={this.props.proyectIdPicker} numberOfBoxes={2} />
         </div>
       </div>
     )
