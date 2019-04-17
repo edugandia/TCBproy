@@ -7,115 +7,108 @@
             "h2": "./images/bear-horizontal2.jpg",
             "h3": "./images/bear-horizontal3.jpg",
             "v1": "./images/bear-vertical1.jpg",
-            "v2": "./images/bear-vertical1.jpg"
+            "v2": "./images/bear-vertical2.jpg"
         },
-        "thumbnailImg": "./images/p1.png",
+        "thumbnailImg": "./images/bear-thumbnail.jpg",
         "prevImage": "./images/bear-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
         "id": 1,
-        "name": "Caser Seguros",
+        "name": "Marben Solutions",
         "images": {
-            "h1": "./images/bear-horizontal2.jpg",
-            "h2": "./images/bear-horizontal3.jpg",
-            "h3": "./images/bear-horizontal2.jpg",
-            "v1": "./images/bear-vertical1.jpg",
-            "v2": "./images/bear-vertical1.jpg",
-            "v4": "./images/bear-vertical1.jpg"
+            "h1": "./images/marben-horizontal1.jpg",
+            "h2": "./images/marben-horizontal2.jpg",
+            "h3": "./images/marben-horizontal3.jpg",
+            "v1": "./images/marben-vertical1.jpg",
+            "v2": "./images/marben-vertical2.jpg"
         },
-        "thumbnailImg": "./images/p2.png",
+        "thumbnailImg": "./images/marben-thumbnail.jpg",
         "prevImage": "./images/marben-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
         "id": 2,
-        "name": "Caser Seguros",
+        "name": "Invisible Bear",
         "images": {
-            "h1": "./images/bear-horizontal2.jpg",
+            "h1": "./images/bear-horizontal1.jpg",
             "h2": "./images/bear-horizontal2.jpg",
             "h3": "./images/bear-horizontal3.jpg",
-            "v3": "./images/bear-vertical1.jpg",
-            "v4": "./images/bear-vertical1.jpg"
+            "v1": "./images/bear-vertical1.jpg",
+            "v2": "./images/bear-vertical2.jpg"
         },
-        "thumbnailImg": "./images/p3.png",
-        "prevImage": "./images/marben-prev.jpg",
+        "thumbnailImg": "./images/bear-thumbnail.jpg",
+        "prevImage": "./images/bear-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
         "id": 3,
-        "name": "Inbisible Bear 2",
+        "name": "Marben Solutions",
         "images": {
-            "h1": "./images/bear-horizontal3.jpg",
-            "h2": "./images/bear-horizontal2.jpg",
-            "h3": "./images/bear-horizontal2.jpg",
-            "v1": "./images/bear-vertical1.jpg",
-            "v3": "./images/bear-vertical1.jpg"
+            "h1": "./images/marben-horizontal1.jpg",
+            "h2": "./images/marben-horizontal2.jpg",
+            "h3": "./images/marben-horizontal3.jpg",
+            "v1": "./images/marben-vertical1.jpg",
+            "v2": "./images/marben-vertical2.jpg"
         },
-        "thumbnailImg": "./images/p4.png",
-        "prevImage": "./images/bear-prev.jpg",
+        "thumbnailImg": "./images/marben-thumbnail.jpg",
+        "prevImage": "./images/marben-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
         "id": 4,
-        "name": "imbisible bear",
+        "name": "Invisible Bear",
         "images": {
-            "h1": "./images/bear-horizontal3.jpg",
-            "h2": "./images/bear-horizontal1.jpg",
-            "v3": "./images/bear-vertical1.jpg",
-            "v4": "./images/bear-vertical1.jpg"
+            "h1": "./images/bear-horizontal1.jpg",
+            "h2": "./images/bear-horizontal2.jpg",
+            "h3": "./images/bear-horizontal3.jpg",
+            "v1": "./images/bear-vertical1.jpg",
+            "v2": "./images/bear-vertical2.jpg"
         },
-        "thumbnailImg": "./images/p5.png",
-        "prevImage": "./images/marben-prev.jpg",
+        "thumbnailImg": "./images/bear-thumbnail.jpg",
+        "prevImage": "./images/bear-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
         "id": 5,
-        "name": "Caser Seguros5",
+        "name": "Marben Solutions",
         "images": {
-            "h2": "./images/bear-horizontal3.jpg",
-            "h3": "./images/bear-horizontal1.jpg",
-            "v3": "./images/bear-vertical1.jpg"
+            "h1": "./images/marben-horizontal1.jpg",
+            "h2": "./images/marben-horizontal2.jpg",
+            "h3": "./images/marben-horizontal3.jpg",
+            "v1": "./images/marben-vertical1.jpg",
+            "v2": "./images/marben-vertical2.jpg"
         },
-        "thumbnailImg": "./images/p6.png",
-        "prevImage": "./images/bear-prev.jpg",
+        "thumbnailImg": "./images/marben-thumbnail.jpg",
+        "prevImage": "./images/marben-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
         "id": 6,
-        "name": "Caser Seguros6",
+        "name": "Invisible Bear",
         "images": {
             "h1": "./images/bear-horizontal1.jpg",
-            "h2": "./images/bear-horizontal3.jpg",
-            "h3": "./images/bear-horizontal3.jpg"
+            "h2": "./images/bear-horizontal2.jpg",
+            "h3": "./images/bear-horizontal3.jpg",
+            "v1": "./images/bear-vertical1.jpg",
+            "v2": "./images/bear-vertical2.jpg"
         },
-        "thumbnailImg": "./images/p1.png",
-        "prevImage": "./images/marben-prev.jpg",
+        "thumbnailImg": "./images/bear-thumbnail.jpg",
+        "prevImage": "./images/bear-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     },
     {
         "id": 7,
-        "name": "Caser Seguros7",
+        "name": "Marben Solutions",
         "images": {
-            "h1": "./images/bear-horizontal3.jpg",
-            "v1": "./images/bear-vertical1.jpg",
-            "v2": "./images/bear-vertical1.jpg"
+            "h1": "./images/marben-horizontal1.jpg",
+            "h2": "./images/marben-horizontal2.jpg",
+            "h3": "./images/marben-horizontal3.jpg",
+            "v1": "./images/marben-vertical1.jpg",
+            "v2": "./images/marben-vertical2.jpg"
         },
-        "thumbnailImg": "./images/p2.png",
+        "thumbnailImg": "./images/marben-thumbnail.jpg",
         "prevImage": "./images/marben-prev.jpg",
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
-    },
-    {
-        "id": 8,
-        "name": "Caser Seguros8",
-        "images": {
-            "h1": "./images/bear-horizontal3.jpg",
-            "h2": "./images/bear-horizontal3.jpg",
-            "v2": "./images/bear-vertical1.jpg",
-            "v3": "./images/bear-vertical1.jpg"
-        },
-        "thumbnailImg": "./images/p3.png",
-        "prevImage": "./images/bear-prev.jpg",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
     }
 ]
