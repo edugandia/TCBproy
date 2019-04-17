@@ -15,7 +15,7 @@ export default class Manifiesto extends Component {
             <p className="signature">Manuel Arce, socio fundador.</p>
           </div>
         </div>
-        <div className="image-container  image-container-manifiesto">
+        <div className="image-container-m  image-container-manifiesto">
         </div>
       </div>
     )

@@ -121,6 +121,23 @@ p {
   }
 }
 
+.image-container-m {
+  background-size: cover;
+  background-position: top;
+  margin-top: 20px;
+  width: 100vw;
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 100vw;
+  }
+  .low-opacity-box {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .wave-container {
     margin-top: 110px;
@@ -146,6 +163,20 @@ p {
     background-position: center;
     width: 80%;
     height: 34vw;
+    img {
+      width: 100%;
+    }
+    .low-opacity-box {
+      background-color: rgba(255, 255, 255, 0.8);
+      width: 75%;
+      height: 75%;
+      display: flex;
+    }
+  }
+
+  .image-container-m {
+    width: 80%;
+    height: 14.8vw;
     img {
       width: 100%;
     }

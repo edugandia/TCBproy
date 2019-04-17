@@ -14,7 +14,7 @@ export default class TransformacionDigital extends Component {
             <p>Lorem ipsum dolorsitamet,consect etueradip iscingelit,seddiam nonummyn  ibheuismodtin ciduntutlaoreetd oloremagnaa  liquam eratvolutpat.Utwisienim adminim eniam,quisnostrud exercitation.</p>
           </div>
         </div>
-        <div className="image-container image-container-transformacion">
+        <div className="image-container-m image-container-transformacion">
           {/* <div className="low-opacity-box">
             <div className="brands-conatainer">
               <div className="transformacion-box">

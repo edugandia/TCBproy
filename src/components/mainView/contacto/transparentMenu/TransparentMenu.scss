@@ -31,15 +31,15 @@
 @media (min-width: 768px) {
   .transparent-container {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
   }
 
-  .contact-icons-mobile {
-    display: none;
-  }
-
   .contacto-box {
-    width: 33%;
+    margin-top: 30px;
+    width: 20%;
+    img{
+      width: 200px;
+    }
   }
 }

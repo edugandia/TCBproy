@@ -40,7 +40,7 @@ export default class Menu extends Component {
             this.closeWavesMenu()
           }}>
             {this.state.isOpen && <h3 className="slide-in-right title-menu title-menu-r pink">manifiesto</h3>}
-            <img src="./images/thumbnail_rosa.png" alt="line" />
+            <img src="./images/wave_pink_v01.gif" alt="line" />
           </div>
 
           <div className="wave2 wave" onMouseEnter={() => {
@@ -51,7 +51,7 @@ export default class Menu extends Component {
             this.closeWavesMenu()
           }}>
             {this.state.isOpen && <h3 className="slide-in-left title-menu title-menu-i yellow">publicidad</h3>}
-            <img src="./images/thumbnail_amarillo.png" alt="line" />
+            <img src="./images/wave_cyan_v01.gif" alt="line" />
           </div>
 
           <div className="wave3 wave" onMouseEnter={() => {
@@ -62,7 +62,7 @@ export default class Menu extends Component {
             this.closeWavesMenu()
           }}>
             {this.state.isOpen && <h3 className="slide-in-right title-menu title-menu-r blue">transformación<br/>digital</h3>}
-            <img src="./images/thumbnail_azul.png" alt="line" />
+            <img src="./images/wave_blue_v01.gif" alt="line" />
           </div>
 
           <div className="wave4 wave" onMouseEnter={() => {
@@ -73,7 +73,7 @@ export default class Menu extends Component {
             this.closeWavesMenu()
           } : this.openWavesMenu}>
             {this.state.isOpen && <h3 className="slide-in-left title-menu title-menu-i green">contacto</h3>}
-            <img src="./images/thumbnail_verde.png" alt="line" />
+            <img src="./images/wave_green_v01.gif" alt="line" />
           </div>
         </div>
       </div>

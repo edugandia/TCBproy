@@ -15,14 +15,9 @@ export default class Contacto extends Component {
             <p>Lorem ipsum dolorsitamet,consect etueradip iscingelit,seddiam nonummyn  ibheuismodtin ciduntutlaoreetd oloremagnaa  liquam eratvolutpat.Utwisienim adminim eniam,quisnostrud exercitation.</p>
           </div>
         </div>
-        <div className="image-container image-container-contacto">
-          <div className="low-opacity-box">
-            <TransparentMenu />
-          </div>
+        <div className="image-container-m image-container-contacto">
         </div>
-        <div className="contact-icons-mobile">
-          <TransparentMenu />
-        </div>
+        <TransparentMenu />
       </div>
     )
   }

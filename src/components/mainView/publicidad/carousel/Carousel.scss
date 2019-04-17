@@ -59,7 +59,7 @@
   .previsualizador {
     width: 100%;
     height: 14.8vw;
-    background-image: url("../../../../assets/fondo-carousel.jpg");
+    background-image: url("../../../../assets/banner-amarillo.jpg");
     background-position: center;
     background-size: cover;
     img {
@@ -69,11 +69,11 @@
   }
 }
 
-.carousel-box:hover {
-  .name-proyect-container {
-    display: flex;
-  }
-}
+// .carousel-box:hover {
+//   .name-proyect-container {
+//     display: flex;
+//   }
+// }
 
 .carousel-add {
   width: 15px;
