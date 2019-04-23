@@ -11,7 +11,7 @@
     },
     "thumbnailImg": "./images/bear-thumbnail.jpg",
     "prevImage": "./images/bear-prev.jpg",
-    "description1": "Opticalia decidió crear un nuevo producto, Invisible Bear. Un líquido transparente que una vez aplicado protege tus dispositivos de caídas, arañazos, golpes. Es más fino que una hoja de papel y protege 600 veces más que un cristal templado.Con la conceptualización del nombre queríamos traer al frente que uno de los animales más fuertes del mundo está protegiendo tu dispositivo, aunque tú no lo puedas ver.Con el diseño de la imagen corporativa queríamos reforzar nuestro concepto y hacer que el oso que te protege sea invisible, al igual que nuestro producto.",
+    "description1": "Opticalia decidió crear un nuevo producto, Invisible Bear. Un líquido transparente que una vez aplicado protege tus dispositivos de caídas, arañazos, golpes. Es más fino que una hoja de papel y protege 600 veces más que un cristal templado.",
     "description2": "Con la conceptualización del nombre queríamos traer al frente que uno de los animales más fuertes del mundo está protegiendo tu dispositivo, aunque tú no lo puedas ver.",
     "description3": "Con el diseño de la imagen corporativa queríamos reforzar nuestro concepto y hacer que el oso que te protege sea invisible, al igual que nuestro producto."
   },
@@ -67,7 +67,7 @@
   },
   {
     "id": 6,
-    "name": "Invisible Bear",
+    "name": "Opticalia",
     "images": {
       "h1": "./images/bear-horizontal1.jpg",
       "h2": "./images/bear-horizontal2.jpg",
@@ -77,7 +77,9 @@
     },
     "thumbnailImg": "./images/bear-thumbnail.jpg",
     "prevImage": "./images/bear-prev.jpg",
-    "description1": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
+    "description1": "Opticalia decidió crear un nuevo producto, Invisible Bear. Un líquido transparente que una vez aplicado protege tus dispositivos de caídas, arañazos, golpes. Es más fino que una hoja de papel y protege 600 veces más que un cristal templado.Con la conceptualización del nombre queríamos traer al frente que uno de los animales más fuertes del mundo está protegiendo tu dispositivo, aunque tú no lo puedas ver.Con el diseño de la imagen corporativa queríamos reforzar nuestro concepto y hacer que el oso que te protege sea invisible, al igual que nuestro producto.",
+    "description2": "Con la conceptualización del nombre queríamos traer al frente que uno de los animales más fuertes del mundo está protegiendo tu dispositivo, aunque tú no lo puedas ver.",
+    "description3": "Con el diseño de la imagen corporativa queríamos reforzar nuestro concepto y hacer que el oso que te protege sea invisible, al igual que nuestro producto."
   },
   {
     "id": 7,
@@ -91,6 +93,42 @@
     },
     "thumbnailImg": "./images/marben-thumbnail.jpg",
     "prevImage": "./images/marben-prev.jpg",
-    "description1": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
+    "description1": "Marben se dedicada al interiorismo, reforma y portes del hogar. Con el rediseño de su nueva identidad corporativa, queríamos dejar claro que tu casa no es hogar hasta que todas las piezas están en el lugar correcto."
+  },
+  {
+    "id": 8,
+    "name": "Adidas",
+    "images": {
+      "h1": "./images/proximamente.jpg"
+    },
+    "thumbnailImg": "./images/adidas-thumbnail.jpg",
+    "prevImage": "./images/adidas-prev.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Mercedes-Benz",
+    "images": {
+      "h1": "./images/proximamente.jpg"
+    },
+    "thumbnailImg": "./images/mercedes-thumbnail.jpg",
+    "prevImage": "./images/mercedes-prev.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Pernod Ricard",
+    "images": {
+      "h1": "./images/proximamente.jpg"
+    },
+    "thumbnailImg": "./images/pernod-thumbnail.jpg",
+    "prevImage": "./images/pernod-prev.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Caser",
+    "images": {
+      "h1": "./images/proximamente.jpg"
+    },
+    "thumbnailImg": "./images/caser-thumbnail.jpg",
+    "prevImage": "./images/caser-prev.jpg"
   }
 ]

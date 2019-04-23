@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import "./AvisoLegal.scss";
 
 export default class AvisoLegal extends Component {
+  componentWillMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div className="aviso-legal-container">

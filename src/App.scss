@@ -35,19 +35,19 @@ $color-dark-blue: rgb(24, 52, 76);
   src: url("./assets/fonts/GalanoGrotesqueLight.otf");
 }
 
-// @font-face {
-//   font-family: "Galano Medium";
-//   font-style: normal;
-//   font-weight: 400;
-//   src: url("./assets/fonts/GalanoGrotesqueMedium.otf");
-// }
+@font-face {
+  font-family: "Galano Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/GalanoGrotesqueMedium.otf");
+}
 
-// @font-face {
-//   font-family: "Galano Semi Bold";
-//   font-style: normal;
-//   font-weight: 400;
-//   src: url("./assets/fonts/GalanoGrotesqueSemiBold.otf");
-// }
+@font-face {
+  font-family: "Galano Semi Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/GalanoGrotesqueSemiBold.otf");
+}
 
 h1 {
   font-family: "Galano Black";

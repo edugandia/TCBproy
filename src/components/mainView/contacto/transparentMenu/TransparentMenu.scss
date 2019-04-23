@@ -1,14 +1,13 @@
 .transparent-container {
   width: 100%;
   display: flex;
-  // flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .contacto-box {
   margin-top: 15px;
-  width: 33%;
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +20,7 @@
     font-size: 13px;
   }
   img{
-    width: 100px;
+    width: 60px;
   }
   &.mail {
     cursor: pointer;
