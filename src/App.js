@@ -12,12 +12,17 @@ class App extends Component {
     super();
     this.state = {
       redirectToProyects: false,
-      numberOfProyects: infoProyects.length
+      numberOfProyects: infoProyects.length,
+      anchorId: "top"
     };
   }
 
   proyectIdPicker = id => {
     this.setState({ ...this.state, proyectSelectedId: id });
+  };
+
+  anchorIdSelector = position => {
+    this.setState({ ...this.setState, anchorId: position });
   };
 
   proyectNavController = operation => {
@@ -42,7 +47,13 @@ class App extends Component {
           <Route
             exact
             path="/"
-            render={() => <MainView proyectIdPicker={this.proyectIdPicker} />}
+            render={() => (
+              <MainView
+                anchorId={this.state.anchorId}
+                proyectIdPicker={this.proyectIdPicker}
+                anchorIdSelector={this.anchorIdSelector}
+              />
+            )}
           />
           <Route
             exact
@@ -51,6 +62,7 @@ class App extends Component {
               <Proyects
                 proyectSelectedId={this.state.proyectSelectedId}
                 proyectNavController={this.proyectNavController}
+                anchorIdSelector={this.anchorIdSelector}
               />
             )}
           />

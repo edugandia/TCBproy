@@ -5,8 +5,10 @@ import utils from "../../utils/utils";
 import "./Proyects.scss";
 
 export default class Proyects extends Component {
+
   componentWillMount() {
     window.scrollTo(0, 0);
+    this.props.anchorIdSelector("top");
   }
 
   componentDidUpdate(prevProps) {
@@ -49,15 +51,16 @@ export default class Proyects extends Component {
           <div className="content-container">
             <div className="title yellow proyect-title">
               <Link to="/">
-                <div className="home-link">
+                <div onClick={()=>this.props.anchorIdSelector("publicidad")} className="home-link">
                   <img src="./images/flecha-amarilla.png" alt="arrow-white" />
                 </div>
               </Link>
-
               <h1>{infoProyects[this.props.proyectSelectedId].name}</h1>
             </div>
             <div className="text">
-              <p>{infoProyects[this.props.proyectSelectedId].description}</p>
+              <p>{infoProyects[this.props.proyectSelectedId].description1}</p>
+              <p>{infoProyects[this.props.proyectSelectedId].description2}</p>
+              <p>{infoProyects[this.props.proyectSelectedId].description3}</p>
             </div>
             <div className="images-container">
               {infoProyects[this.props.proyectSelectedId].images.h1 && (
