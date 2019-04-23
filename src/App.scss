@@ -27,27 +27,27 @@ $color-dark-blue: rgb(24, 52, 76);
 
 @font-face {
   font-family: "Galano Black";
-  src: url("./assets/GalanoGrotesqueBlack.otf");
+  src: url("./assets/fonts/GalanoGrotesqueBlack.otf");
 }
 
 @font-face {
   font-family: "Galano Light";
-  src: url("./assets/GalanoGrotesqueLight.otf");
+  src: url("./assets/fonts/GalanoGrotesqueLight.otf");
 }
 
-@font-face {
-  font-family: "Galano Medium";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./assets/GalanoGrotesqueMedium.otf");
-}
+// @font-face {
+//   font-family: "Galano Medium";
+//   font-style: normal;
+//   font-weight: 400;
+//   src: url("./assets/fonts/GalanoGrotesqueMedium.otf");
+// }
 
-@font-face {
-  font-family: "Galano Semi Bold";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./assets/GalanoGrotesqueSemiBold.otf");
-}
+// @font-face {
+//   font-family: "Galano Semi Bold";
+//   font-style: normal;
+//   font-weight: 400;
+//   src: url("./assets/fonts/GalanoGrotesqueSemiBold.otf");
+// }
 
 h1 {
   font-family: "Galano Black";

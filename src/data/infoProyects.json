@@ -33,37 +33,37 @@
     "id": 2,
     "name": "Adidas",
     "images": {
+      "h1": "./images/proximamente.jpg"
     },
     "thumbnailImg": "./images/adidas-thumbnail.jpg",
-    "prevImage": "./images/adidas-prev.jpg",
-    "description1": "PRÓXIMAMENTE"
+    "prevImage": "./images/adidas-prev.jpg"
   },
   {
     "id": 3,
-    "name": "Mercedes",
+    "name": "Mercedes-Benz",
     "images": {
+      "h1": "./images/proximamente.jpg"
     },
     "thumbnailImg": "./images/mercedes-thumbnail.jpg",
-    "prevImage": "./images/mercedes-prev.jpg",
-    "description1": "PRÓXIMAMENTE"
+    "prevImage": "./images/mercedes-prev.jpg"
   },
   {
     "id": 4,
     "name": "Pernod Ricard",
     "images": {
+      "h1": "./images/proximamente.jpg"
     },
     "thumbnailImg": "./images/pernod-thumbnail.jpg",
-    "prevImage": "./images/pernod-prev.jpg",
-    "description1": "PRÓXIMAMENTE"
+    "prevImage": "./images/pernod-prev.jpg"
   },
   {
     "id": 5,
     "name": "Caser",
     "images": {
+      "h1": "./images/proximamente.jpg"
     },
     "thumbnailImg": "./images/caser-thumbnail.jpg",
-    "prevImage": "./images/caser-prev.jpg",
-    "description1": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet inventore aspernatur deserunt quibusdam neque atque eos iusto expedita perspiciatis asperiores, delectus harum soluta. Quasi, quis. Placeat ut iste aspernatur soluta?"
+    "prevImage": "./images/caser-prev.jpg"
   },
   {
     "id": 6,

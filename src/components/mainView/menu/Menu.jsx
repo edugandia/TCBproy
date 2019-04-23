@@ -53,7 +53,7 @@ export default class Menu extends Component {
                 manifiesto
               </h3>
             )}
-            <img src="./images/wave_pink_v01.gif" alt="line" />
+            <img src="./images/Wave_pink_v01.gif" alt="line" />
           </div>
 
           <div
@@ -72,7 +72,7 @@ export default class Menu extends Component {
                 publicidad
               </h3>
             )}
-            <img src="./images/wave_yellow_v01.gif" alt="line" />
+            <img src="./images/Wave_yellow_v01.gif" alt="line" />
           </div>
 
           <div
@@ -93,7 +93,7 @@ export default class Menu extends Component {
                 digital
               </h3>
             )}
-            <img src="./images/wave_blue_v01.gif" alt="line" />
+            <img src="./images/Wave_blue_v01.gif" alt="line" />
           </div>
 
           <div
@@ -116,7 +116,7 @@ export default class Menu extends Component {
                 contacto
               </h3>
             )}
-            <img src="./images/wave_green_v01.gif" alt="line" />
+            <img src="./images/Wave_green_v01.gif" alt="line" />
           </div>
         </div>
       </div>
