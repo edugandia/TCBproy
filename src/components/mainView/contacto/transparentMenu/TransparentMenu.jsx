@@ -6,7 +6,7 @@ export default class TransparentMenu extends Component {
     return (
       <div className="transparent-container">
         <a
-          href="http://www.google.com/maps/place/40.434551,-3.700519"
+          href="http://www.google.com/maps/place/eloy+gonzalo+27+madrid"
           target="_blank"
           className="contacto-box mail"
         >

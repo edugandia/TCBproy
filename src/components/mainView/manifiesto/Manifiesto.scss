@@ -26,7 +26,7 @@
     position: absolute;
     z-index: -1;
     width: 33%;
-    height: 33vw
+    height: 33vw;
   }
   h3 {
     text-align: center;
@@ -95,5 +95,15 @@
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     opacity: 1;
+  }
+}
+
+.space {
+  color: white;
+}
+
+.text {
+  p {
+    margin: 20px;
   }
 }

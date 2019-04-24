@@ -22,12 +22,13 @@
       "h1": "./images/marben-horizontal1.jpg",
       "h2": "./images/marben-horizontal2.jpg",
       "h3": "./images/marben-horizontal3.jpg",
+      "h4": "./images/marben-horizontal4.jpg",
       "v1": "./images/marben-vertical1.jpg",
       "v2": "./images/marben-vertical2.jpg"
     },
     "thumbnailImg": "./images/marben-thumbnail.jpg",
     "prevImage": "./images/marben-prev.jpg",
-    "description1": "Marben se dedicada al interiorismo, reforma y portes del hogar. Con el rediseño de su nueva identidad corporativa, queríamos dejar claro que tu casa no es hogar hasta que todas las piezas están en el lugar correcto."
+    "description1": "Marben se dedica al interiorismo, reforma y portes del hogar. Con el rediseño de su nueva identidad corporativa, queríamos dejar claro que tu casa no es hogar hasta que todas las piezas están en el lugar correcto."
   },
   {
     "id": 2,
@@ -88,12 +89,13 @@
       "h1": "./images/marben-horizontal1.jpg",
       "h2": "./images/marben-horizontal2.jpg",
       "h3": "./images/marben-horizontal3.jpg",
+      "h4": "./images/marben-horizontal4.jpg",
       "v1": "./images/marben-vertical1.jpg",
       "v2": "./images/marben-vertical2.jpg"
     },
     "thumbnailImg": "./images/marben-thumbnail.jpg",
     "prevImage": "./images/marben-prev.jpg",
-    "description1": "Marben se dedicada al interiorismo, reforma y portes del hogar. Con el rediseño de su nueva identidad corporativa, queríamos dejar claro que tu casa no es hogar hasta que todas las piezas están en el lugar correcto."
+    "description1": "Marben se dedica al interiorismo, reforma y portes del hogar. Con el rediseño de su nueva identidad corporativa, queríamos dejar claro que tu casa no es hogar hasta que todas las piezas están en el lugar correcto."
   },
   {
     "id": 8,

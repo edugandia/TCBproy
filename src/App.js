@@ -13,7 +13,8 @@ class App extends Component {
     this.state = {
       redirectToProyects: false,
       numberOfProyects: infoProyects.length,
-      anchorId: "top"
+      anchorId: "top",
+      proyectSelectedId: 0
     };
   }
 
