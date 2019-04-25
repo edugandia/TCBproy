@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import "./Manifiesto.scss";
 import employeesList from "../../../data/employees.json";
+import utils from "../../../utils/utils";
+
+const randomList = utils.shuffle(employeesList)
 
 export default class Manifiesto extends Component {
   render() {
@@ -15,7 +18,7 @@ export default class Manifiesto extends Component {
           </div>
           <div className="text">
             <p>
-              <b>Tacubaya</b> es un homenaje a cada una de esas personas que un
+              Somos <b>Tacubaya</b> en homenaje a cada una de esas personas que un
               día tuvieron un sueño (muy despiertos) y lo vivieron emigrando a
               principios del siglo XX a México a “hacer las Américas".
             </p>
@@ -74,7 +77,7 @@ export default class Manifiesto extends Component {
           </div>
         </div>
         <div className="employees-container">
-          {employeesList.map((employee, i) => {
+          {randomList.map((employee, i) => {
             return (
               <div key={i} className="employee-box">
                 <img src={employee.image} alt={employee.name} />

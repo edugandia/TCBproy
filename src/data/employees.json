@@ -1,92 +1,62 @@
 [
     {
-        "image": "./images/employees/david-poncelas.jpg",
-        "name": "David Poncelas",
-        "position": "director creativo",
+        "image": "./images/employees/elena.jpg",
+        "name": "Elena Martínez de Toro",
+        "color": "yellow"
+    },
+    {
+        "image": "./images/employees/teresa.jpg",
+        "name": "Teresa Álvarez-Sala",
+        "color": "yellow"
+    },
+    {
+        "image": "./images/employees/guille.jpg",
+        "name": "Guillermo Peña",
         "color": "yellow"
     },
     {
         "image": "./images/employees/david-poncelas.jpg",
         "name": "David Poncelas",
-        "position": "director creativo",
+        "color": "yellow"
+    },
+    {
+        "image": "./images/employees/manuel.jpg",
+        "name": "Manuel Arce",
         "color": "blue"
     },
     {
-        "image": "./images/employees/david-poncelas.jpg",
-        "name": "David Poncelas",
-        "position": "director creativo",
-        "color": "pink"
-    },
-    {
-        "image": "./images/employees/david-poncelas.jpg",
-        "name": "David Poncelas",
-        "position": "director creativo",
+        "image": "./images/employees/edu.jpg",
+        "name": "Eduardo Gandía",
         "color": "green"
     },
     {
-        "image": "./images/employees/david-poncelas.jpg",
-        "name": "David Poncelas",
-        "position": "director creativo",
-        "color": "yellow"
+        "image": "./images/employees/alvaro.jpg",
+        "name": "Álvaro García",
+        "color": "green"
     },
     {
-        "image": "./images/employees/david-poncelas.jpg",
-        "name": "David Poncelas",
-        "position": "director creativo",
-        "color": "yellow"
+        "image": "./images/employees/alberto.jpg",
+        "name": "Alberto Gomez",
+        "color": "green"
     },
     {
-        "image": "./images/employees/david-poncelas.jpg",
-        "name": "David Poncelas",
-        "position": "director creativo",
-        "color": "yellow"
+        "image": "./images/employees/denys.jpg",
+        "name": "Denys Fonseca",
+        "color": "green"
     },
     {
-        "image": "./images/employees/david-poncelas.jpg",
-        "name": "David Poncelas",
-        "position": "director creativo",
-        "color": "yellow"
+        "image": "./images/employees/fernando.jpg",
+        "name": "Fernando Lahoz",
+        "color": "green"
     },
     {
-        "image": "./images/employees/david-poncelas.jpg",
-        "name": "David Poncelas",
-        "position": "director creativo",
-        "color": "yellow"
+        "image": "./images/employees/javi.jpg",
+        "name": "Javier Martín",
+        "color": "green"
     },
     {
-        "image": "./images/employees/david-poncelas.jpg",
-        "name": "David Poncelas",
-        "position": "director creativo",
-        "color": "yellow"
-    },
-    {
-        "image": "./images/employees/david-poncelas.jpg",
-        "name": "David Poncelas",
-        "position": "director creativo",
-        "color": "yellow"
-    },
-    {
-        "image": "./images/employees/david-poncelas.jpg",
-        "name": "David Poncelas",
-        "position": "director creativo",
-        "color": "yellow"
-    },
-    {
-        "image": "./images/employees/david-poncelas.jpg",
-        "name": "David Poncelas",
-        "position": "director creativo",
-        "color": "yellow"
-    },
-    {
-        "image": "./images/employees/david-poncelas.jpg",
-        "name": "David Poncelas",
-        "position": "director creativo",
-        "color": "yellow"
-    },
-    {
-        "image": "./images/employees/david-poncelas.jpg",
-        "name": "David Poncelas",
-        "position": "director creativo",
+        "image": "./images/employees/ivan.jpg",
+        "name": "Iván Villarubia",
         "color": "yellow"
     }
 ]
