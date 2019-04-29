@@ -31,7 +31,7 @@
     },
     {
         "image": "./images/employees/alvaro.jpg",
-        "name": "Álvaro García",
+        "name": "Álvaro Gonzalez",
         "color": "green"
     },
     {
@@ -58,5 +58,10 @@
         "image": "./images/employees/ivan.jpg",
         "name": "Iván Villarubia",
         "color": "yellow"
+    },
+    {
+        "image": "./images/employees/alexandra.jpg",
+        "name": "Alexandra Guerrero",
+        "color": "pink"
     }
 ]

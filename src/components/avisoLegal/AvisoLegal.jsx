@@ -170,7 +170,7 @@ export default class AvisoLegal extends Component {
           son gestionados por terceros.
           <br />
           <br />
-          RUBIO LAPORTA ASOCIADOS Y CÍA, S.R.C. no se hace responsable de la
+          TACUBAYA CONSULTING S.L.. no se hace responsable de la
           información, contenidos, productos o servicios facilitados por éstos,
           ni asume responsabilidad de orden alguno por cualquier aspecto
           relativo a estas páginas.

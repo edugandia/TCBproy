@@ -18,7 +18,7 @@ export default class Manifiesto extends Component {
           </div>
           <div className="text">
             <p>
-              Somos <b>Tacubaya</b> en homenaje a cada una de esas personas que un
+              Somos Tacubaya en homenaje a cada una de esas personas que un
               día tuvieron un sueño (muy despiertos) y lo vivieron emigrando a
               principios del siglo XX a México a “hacer las Américas".
             </p>
@@ -32,44 +32,44 @@ export default class Manifiesto extends Component {
               creatividad y el buen hacer por encima de todo.
             </p>
             <p>
-              <b>Tacubaya</b> es Tranquilidad, es Aptitud, es Compromiso, es
+              Tacubaya es Tranquilidad, es Aptitud, es Compromiso, es
               Unidad, es Brillantez, es Aprendizaje, y por supuesto... es
               Alegría.
             </p>
             <p>
-              La <b>T</b>ranquilidad de nuestros clientes es sin duda nuestro
-              primer lazo de unión. Es básico para nosotros que confíen en
+              La Tranquilidad de nuestros clientes es sin duda nuestro
+              primer lazo de unión. Es básico que confíen en
               nosotros y se sientan seguros.
             </p>
             <p>
-              La <b>A</b>ptitud es la inteligencia y la habilidad con la que
+              La Aptitud es la inteligencia y la habilidad con la que
               cumplimos con las necesidades que surgen en cada uno de los retos
               de comunicación a los que nos enfrentamos.
             </p>
             <p>
-              El <b>C</b>ompromiso en alcanzar las metas que nos exigen nuestros
+              El Compromiso en alcanzar las metas que nos exigen nuestros
               clientes es máximo. Enfocamos a la perfección cada trabajo y para
               lograr los hitos marcados.
             </p>
             <p>
-              La <b>U</b>nidad del gran equipo de PERSONAS que conforma Tacubaya
+              La Unidad del gran equipo de PERSONAS que conforma Tacubaya
               hace que consigamos los mejores resultados en cada proyecto
             </p>
             <p>
-              La <b>B</b>rillantez es un talento que desarrollamos día a día en
+              La Brillantez es un talento que desarrollamos día a día en
               cada uno de nuestros trabajos, fruto tantos años de experiencia
               unido con la pasión por lo que amamos: LA PUBLICIDAD
             </p>
             <p>
-              El <b>A</b>prendizaje es un must have en cada uno de las
+              El Aprendizaje es un must have en cada uno de las
               experiencias vividas en el mundo publicitario.
             </p>
             <p>
-              <span className="space">__</span>
-              <b>Y</b>, por supuesto…
+              {/* <span className="space">__</span> */}
+              Y, por supuesto…
             </p>
             <p>
-              La <b>A</b>legría de cada persona de venir cada día a desarrollar
+              La Alegría de cada persona de venir cada día a desarrollar
               su talento y exprimir sus ideas para crear cosas bonitas y
               eficaces.
             </p>
