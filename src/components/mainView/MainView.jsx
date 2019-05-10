@@ -18,7 +18,6 @@ export default class MainView extends Component {
   }
 
   showPageActivator = () => {
-    console.log("pasa");
     this.setState({ ...this.state, showPage: true });
   };
 

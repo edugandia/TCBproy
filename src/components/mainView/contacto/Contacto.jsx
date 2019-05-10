@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Contacto.scss";
 import TransparentMenu from "./transparentMenu";
+import WorkWithUs from "./workWithUs";
 
 export default class Contacto extends Component {
   render() {
@@ -17,16 +18,20 @@ export default class Contacto extends Component {
             <p>
               Pues aquí estamos... en el final de la web, bueno, en realidad no
               es el final del todo, podrías leerte nuestras bases legales, pero
-              (spoiler alert) son bastante aburridas.<br/><br/>Así que si quieres, es el
-              momento de ponernos en contacto. Nos puedes mandar un mail, venir
-              a vernos o llamarnos. De momento no se nos ocurren más maneras de
-              contactar, pero si se te ocurren a ti, puedes decírnoslo por mail,
-              en nuestras oficinas o por teléfono.
+              (spoiler alert) son bastante aburridas.
+              <br />
+              <br />
+              Así que si quieres, es el momento de ponernos en contacto. Nos
+              puedes mandar un mail, venir a vernos o llamarnos. De momento no
+              se nos ocurren más maneras de contactar, pero si se te ocurren a
+              ti, puedes decírnoslo por mail, en nuestras oficinas o por
+              teléfono.
             </p>
           </div>
         </div>
         <div className="image-container-m image-container-contacto" />
         <TransparentMenu />
+        <WorkWithUs />
       </div>
     );
   }

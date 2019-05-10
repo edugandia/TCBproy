@@ -1,0 +1,51 @@
+.work-with-us-container {
+  width: 80%;
+  margin-top: 50px;
+  h3 {
+    margin: 10px 0 0 0;
+  }
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .form-row {
+      width: 100%;
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+      .input-half {
+        width: 49%;
+      }
+      .input-entry {
+        width: 100%;
+      }
+    }
+  }
+}
+.green-form {
+  height: 35px;
+  border: 1.5px solid #c7dfce;
+  border-radius: 2px;
+  &::placeholder {
+    color: #c7dfce;
+    padding-left: 20px;
+    font-family: "Galano Light";
+  }
+  &.text-area {
+    height: 70px;
+    &::placeholder {
+      top: 10px;
+    }
+  }
+  option,
+  select {
+    color: #c7dfce;
+    padding-left: 20px;
+    font-family: "Galano Light";
+  }
+}
+select {
+    color: #c7dfce;
+    padding-left: 20px;
+    font-family: "Galano Light";
+  }
