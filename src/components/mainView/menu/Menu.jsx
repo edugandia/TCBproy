@@ -14,6 +14,7 @@ export default class Menu extends Component {
 
   openWavesMenu = () => {
     this.setState({ ...this.state, isOpen: true }, () => {
+      this.props.showPageActivator();
       setTimeout(() => {
         this.state.isOpen &&
           this.setState({ ...this.setState, isReallyOpen: true });

@@ -6,23 +6,29 @@ import Manifiesto from "./manifiesto";
 import Publicidad from "./publicidad";
 import TransformacionDigital from "./transformacionDigital";
 import Contacto from "./contacto";
+import Footer from "./footer";
 
 export default class MainView extends Component {
   constructor() {
     super();
     this.state = {
-      sectionHover: "tacubaya"
+      sectionHover: "tacubaya",
+      showPage: false
     };
   }
+
+  showPageActivator = () => {
+    console.log("pasa");
+    this.setState({ ...this.state, showPage: true });
+  };
 
   menuLogoToggle = section => {
     this.setState({ ...this.state, sectionHover: section });
   };
 
   componentDidMount() {
-    this.props.anchorId === "top" &&
-      utils.goToId("separator-container");
-      this.props.anchorId === "publicidad" &&
+    this.props.anchorId === "top" && utils.goToId("separator-container");
+    this.props.anchorId === "publicidad" &&
       utils.goToId("publicidad-general-container");
   }
 
@@ -31,11 +37,20 @@ export default class MainView extends Component {
       <div>
         <div id="separator-container" />
         <StickyLogo sectionHover={this.state.sectionHover} />
-        <Menu menuLogoToggle={this.menuLogoToggle} />
-        <Manifiesto />
-        <Publicidad proyectIdPicker={this.props.proyectIdPicker} />
-        <TransformacionDigital />
-        <Contacto />
+        <Menu
+          menuLogoToggle={this.menuLogoToggle}
+          showPageActivator={this.showPageActivator}
+        />
+        {this.state.showPage && (
+          <div>
+            {" "}
+            <Manifiesto />
+            <Publicidad proyectIdPicker={this.props.proyectIdPicker} />
+            <TransformacionDigital />
+            <Contacto />
+            <Footer />{" "}
+          </div>
+        )}
       </div>
     );
   }

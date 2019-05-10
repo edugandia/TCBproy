@@ -5,7 +5,6 @@ import infoProyects from "./data/infoProyects.json";
 import MainView from "./components/mainView";
 import AvisoLegal from "./components/avisoLegal";
 import Proyects from "./components/proyects";
-import Footer from "./components/footer";
 
 class App extends Component {
   constructor() {
@@ -69,7 +68,6 @@ class App extends Component {
           />
           <Route exact path="/aviso-legal" render={() => <AvisoLegal />} />
         </Switch>
-        <Footer />
       </div>
     );
   }
