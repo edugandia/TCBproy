@@ -17,6 +17,14 @@ export default class MainView extends Component {
     };
   }
 
+  componentDidMount() {
+    this.props.anchorId === "top" && utils.goToId("separator-container");
+    this.props.anchorId === "publicidad" &&
+      this.setState({ ...this.state, showPage: true }, () => {
+        utils.goToId("publicidad-general-container");
+      });
+  }
+
   showPageActivator = () => {
     this.setState({ ...this.state, showPage: true });
   };
@@ -24,12 +32,6 @@ export default class MainView extends Component {
   menuLogoToggle = section => {
     this.setState({ ...this.state, sectionHover: section });
   };
-
-  componentDidMount() {
-    this.props.anchorId === "top" && utils.goToId("separator-container");
-    this.props.anchorId === "publicidad" &&
-      utils.goToId("publicidad-general-container");
-  }
 
   render() {
     return (
