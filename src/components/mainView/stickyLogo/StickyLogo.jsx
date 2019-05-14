@@ -10,19 +10,30 @@ export default class StickyLogo extends Component {
     };
   }
 
-  componentWillMount() {
+  // componentDidMount() {
+  // }
+
+  // componentWillUnmount() {
+  //   window.removeEventListener('scroll', this.handleScroll);
+  // }
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.isOnTopDetector);
     this.mobileDeviceDetector();
-    this.isOnTopDetecter();
+    // this.isOnTopDetector();
   }
 
-  isOnTopDetecter = () => {
-    window.onscroll = () => {
-      if (window.pageYOffset < 50) {
-        this.setState({ ...this.state, isOnTop: "active" });
-      } else {
-        this.setState({ ...this.state, isOnTop: "unactive" });
-      }
-    };
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.isOnTopDetector);
+  }
+
+  isOnTopDetector = () => {
+    const currentScroll = window.scrollY;
+    if (currentScroll < 50) {
+      this.setState({ ...this.state, isOnTop: "active" });
+    } else {
+      this.setState({ ...this.state, isOnTop: "unactive" });
+    }
   };
 
   mobileDeviceDetector = () => {
