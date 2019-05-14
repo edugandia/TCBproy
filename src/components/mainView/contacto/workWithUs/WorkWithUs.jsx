@@ -27,7 +27,6 @@ export default class WorkWithUs extends Component {
       method: "POST",
       body: data
     }).then(response => {
-      console.log(response);
       if (response.status === 200) {
         this.setState({ ...this.state, showOkMessage: true });
       } else {
@@ -105,9 +104,7 @@ export default class WorkWithUs extends Component {
 
     return (
       <div className="work-with-us-container">
-        <h3 className="green">
-          Contacta con nosotros, te responderemos en un abrir y cerrar de ojos.
-        </h3>
+        <h2 className="green">¿Quieres trabajar con nosotros?</h2>
         <form onSubmit={this.handleSubmit}>
           <div className="form-row">
             <input
@@ -201,7 +198,7 @@ export default class WorkWithUs extends Component {
                 onChange={this.checkValidator}
               />
               <label htmlFor="checkLPD">
-                " Para continuar tienes que aceptar la{" "}
+                Para continuar tienes que aceptar la{" "}
                 <Link to="/aviso-legal">ley de protección de datos.</Link>
               </label>
             </div>

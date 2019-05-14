@@ -50,12 +50,13 @@ $color-dark-blue: #224f76;
 
 h1 {
   font-family: "Galano Black";
-  font-size: 39px;
+  font-size: 35px;
   margin: 10px 0 25px 0;
   line-height: 36px;
 }
 
-p {
+p,
+label {
   font-family: "Galano Light";
   font-size: 18px;
   text-align: justify;
@@ -65,10 +66,11 @@ p {
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 85px;
+    font-size: 75px;
     line-height: normal;
   }
-  p {
+  p,
+  label {
     font-size: 16px;
   }
 }

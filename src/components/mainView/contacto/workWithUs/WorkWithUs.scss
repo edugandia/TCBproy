@@ -1,7 +1,8 @@
 .work-with-us-container {
   width: 80%;
   margin-top: 50px;
-  h3 {
+  h2 {
+    font-size: 35px;
     margin: 10px 0 0 0;
   }
   form {
@@ -81,11 +82,13 @@
       }
 
       &.check-container {
-        color: #757575;
+        color: #224f76;
         padding: 0 20px;
         font-family: "Galano Light";
-        a {
-          color: #757575;
+        label {
+          a {
+            color: #224f76;
+          }
         }
       }
     }
