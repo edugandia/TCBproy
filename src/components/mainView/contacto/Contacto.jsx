@@ -4,6 +4,17 @@ import TransparentMenu from "./transparentMenu";
 import WorkWithUs from "./workWithUs";
 
 export default class Contacto extends Component {
+  constructor() {
+    super();
+    this.state = {
+      isModalOpen: false
+    };
+  }
+
+  isModalOpenHandler = () => {
+    this.setState({ ...this.state, isModalOpen: !this.state.isModalOpen });
+  };
+
   render() {
     return (
       <div id="contacto-general-container">
@@ -30,7 +41,7 @@ export default class Contacto extends Component {
           </div>
         </div>
         <div className="image-container-m image-container-contacto" />
-        <TransparentMenu />
+        <TransparentMenu isModalOpenHandler={this.isModalOpenHandler} />
         <WorkWithUs />
       </div>
     );

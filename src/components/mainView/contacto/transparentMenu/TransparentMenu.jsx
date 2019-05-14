@@ -8,6 +8,7 @@ export default class TransparentMenu extends Component {
         <a
           href="http://www.google.com/maps/place/eloy+gonzalo+27+madrid"
           target="_blank"
+          rel="noopener noreferrer"
           className="contacto-box mail"
         >
           <img src="./images/direccion.png" alt="ico-direccion" />
@@ -36,7 +37,18 @@ export default class TransparentMenu extends Component {
             <br />
             +34 652 487 501
           </p>
-        </a>
+        </a>{" "}
+        <div
+          className="contacto-box mail"
+          onClick={this.props.isModalOpenHandler}
+        >
+          <img src="./images/avion.png" alt="ico-telefono" />
+          <p>
+            ¿Quieres trabajar
+            <br />
+            con nosotros?
+          </p>
+        </div>
       </div>
     );
   }
