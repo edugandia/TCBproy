@@ -29,8 +29,8 @@ export default class StickyLogo extends Component {
   };
 
   mobileDeviceDetector = () => {
-    window.innerWidth < 1025 &&
-      this.setState({ ...this.state, isMobile: true });
+    const currentWidth = window.innerWidth;
+    currentWidth < 1025 && this.setState({ ...this.state, isMobile: true });
   };
 
   render() {
