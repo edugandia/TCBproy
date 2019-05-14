@@ -43,6 +43,7 @@ export default class Carousel extends Component {
               <div
                 className={`prev-proyect-container ${this.state.proyectHover !==
                   proyect.id && "hiden-img"} swing-in-top-fwd `}
+                key={i}
               >
                 <img src={proyect.prevImage} alt={i} />
                 <h1>{proyect.name}</h1>
@@ -61,7 +62,7 @@ export default class Carousel extends Component {
           <div className="carousel-box-container">
             {carouselIdArray.map((id, i) => {
               return (
-                <Link to="/proyects">
+                <Link to="/proyects" key={i}>
                   <div
                     className="carousel-box"
                     onMouseEnter={() =>
