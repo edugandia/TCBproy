@@ -10,17 +10,9 @@ export default class StickyLogo extends Component {
     };
   }
 
-  // componentDidMount() {
-  // }
-
-  // componentWillUnmount() {
-  //   window.removeEventListener('scroll', this.handleScroll);
-  // }
-
   componentDidMount() {
     window.addEventListener("scroll", this.isOnTopDetector);
     this.mobileDeviceDetector();
-    // this.isOnTopDetector();
   }
 
   componentWillUnmount() {
