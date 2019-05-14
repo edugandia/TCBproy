@@ -1,10 +1,10 @@
 //COLORS
 
 $color-pink: #e399cb;
-$color-yellow: #f9f0b5 ;
+$color-yellow: #f9f0b5;
 $color-blue: #99d7f1;
 $color-green: #c7dfce;
-$color-dark-blue: rgb(24, 52, 76);
+$color-dark-blue: #224f76;
 
 .pink {
   color: $color-pink;
@@ -18,7 +18,6 @@ $color-dark-blue: rgb(24, 52, 76);
 .green {
   color: $color-green;
 }
-
 .dark-blue {
   color: $color-dark-blue;
 }
@@ -61,15 +60,16 @@ p {
   font-size: 18px;
   text-align: justify;
   color: $color-dark-blue;
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 6.5vw;
+    font-size: 85px;
     line-height: normal;
   }
   p {
-    font-size: 1.5vw;
+    font-size: 16px;
   }
 }
 
