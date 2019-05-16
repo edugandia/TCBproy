@@ -1,18 +1,29 @@
 import React, { Component } from "react";
 import "./Contacto.scss";
 import TransparentMenu from "./transparentMenu";
-import WorkWithUs from "./workWithUs";
+import ContactModal from "./contactModal";
 
 export default class Contacto extends Component {
   constructor() {
     super();
     this.state = {
-      isModalOpen: false
+      isWorkWithUsModalOpen: false,
+      isContactUsModalOpen: false
     };
   }
 
-  isModalOpenHandler = () => {
-    this.setState({ ...this.state, isModalOpen: !this.state.isModalOpen });
+  workWithUsModaltToggle = () => {
+    this.setState({
+      ...this.state,
+      isWorkWithUsModalOpen: !this.state.isWorkWithUsModalOpen
+    });
+  };
+
+  contactUsModaltToggle = () => {
+    this.setState({
+      ...this.state,
+      isContactUsModalOpen: !this.state.isContactUsModalOpen
+    });
   };
 
   render() {
@@ -41,8 +52,14 @@ export default class Contacto extends Component {
           </div>
         </div>
         <div className="image-container-m image-container-contacto" />
-        <TransparentMenu isModalOpenHandler={this.isModalOpenHandler} />
-        <WorkWithUs />
+        <TransparentMenu
+          workWithUsModaltToggle={this.workWithUsModaltToggle}
+          contactUsModaltToggle={this.contactUsModaltToggle}
+        />
+        <ContactModal
+          isContactUsModalOpen={this.state.isContactUsModalOpen}
+          contactUsModaltToggle={this.contactUsModaltToggle}
+        />
       </div>
     );
   }

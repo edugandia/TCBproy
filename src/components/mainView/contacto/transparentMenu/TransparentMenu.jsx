@@ -18,18 +18,17 @@ export default class TransparentMenu extends Component {
             28010, Madrid
           </p>
         </a>
-        <a
-          href="mailto:hola@tacubayaconsulting.com?Subject=Buenos%20días%20..."
-          target="_top"
+        <div
+          onClick={this.props.contactUsModaltToggle}
           className="contacto-box mail"
         >
           <img src="./images/avion.png" alt="ico-avion" />
           <p>
-            Envíanos
+            Contacta
             <br />
-            un e-mail
+            con nosotros
           </p>
-        </a>
+        </div>
         <a href="tel:+34652487501" className="contacto-box mail">
           <img src="./images/telefono.png" alt="ico-telefono" />
           <p>
@@ -40,7 +39,7 @@ export default class TransparentMenu extends Component {
         </a>{" "}
         <div
           className="contacto-box mail"
-          onClick={this.props.isModalOpenHandler}
+          onClick={this.props.workWithUsModaltToggle}
         >
           <img src="./images/avion.png" alt="ico-telefono" />
           <p>
