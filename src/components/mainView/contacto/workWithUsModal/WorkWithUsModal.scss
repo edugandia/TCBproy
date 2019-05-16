@@ -1,0 +1,15 @@
+.modal-form-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.7);
+    justify-content: center;
+    align-items: center;
+    &.show-modal {
+      display: flex;
+    }
+  }
+  

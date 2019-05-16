@@ -214,6 +214,9 @@ export default class WorkWithUs extends Component {
             </div>
           )}
         </form>
+        <div onClick={this.props.workWithUsModaltToggle} className="close-modal">
+          <p>Cerrar (X)</p>
+        </div>
       </div>
     );
   }

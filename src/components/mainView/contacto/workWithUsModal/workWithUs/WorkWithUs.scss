@@ -1,8 +1,12 @@
 .work-with-us-container {
-  width: 80%;
-  margin-top: 50px;
+  width: 90vw;
+  height: 90vh;
+  padding: 0 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: auto;
   h2 {
-    font-size: 35px;
     margin: 10px 0 0 0;
   }
   form {
@@ -93,6 +97,14 @@
       }
     }
   }
+  .close-modal {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    p {
+      cursor: pointer;
+    }
+  }
 }
 
 #input-file {
@@ -106,6 +118,9 @@
 
 @media (min-width: 768px) {
   .work-with-us-container {
+    width: 700px;
+    height: auto;
+    padding: 50px;
     form {
       .form-row {
         flex-direction: row;

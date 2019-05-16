@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Contacto.scss";
 import TransparentMenu from "./transparentMenu";
 import ContactModal from "./contactModal";
+import WorkWithUsModal from "./workWithUsModal/WorkWithUsModal";
 
 export default class Contacto extends Component {
   constructor() {
@@ -59,6 +60,10 @@ export default class Contacto extends Component {
         <ContactModal
           isContactUsModalOpen={this.state.isContactUsModalOpen}
           contactUsModaltToggle={this.contactUsModaltToggle}
+        />
+        <WorkWithUsModal
+          isWorkWithUsModalOpen={this.state.isWorkWithUsModalOpen}
+          workWithUsModaltToggle={this.workWithUsModaltToggle}
         />
       </div>
     );
