@@ -1,17 +1,15 @@
 .transparent-container {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
 }
 
 .contacto-box {
   margin-top: 15px;
-  width: 30%;
+  width: 20%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   p {
     margin: 0;
     text-align: center;
@@ -19,7 +17,7 @@
     font-weight: 100;
     font-size: 13px;
   }
-  img{
+  img {
     width: 60px;
   }
   &.mail {
@@ -42,10 +40,10 @@
   .contacto-box {
     margin-top: 30px;
     width: 15%;
-    img{
+    img {
       width: 100px;
     }
-    p{
+    p {
       font-weight: 100;
       font-size: 13px;
     }
