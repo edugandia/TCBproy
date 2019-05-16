@@ -6,7 +6,7 @@ export default class WorkWithUsModal extends Component {
   render() {
     return (
       <div
-        className={`modal-form-container ${this.props.isWorkWithUsModalOpen &&
+        className={`modal-form-container fade-in ${this.props.isWorkWithUsModalOpen &&
           "show-modal"}`}
       >
         <WorkWithUs

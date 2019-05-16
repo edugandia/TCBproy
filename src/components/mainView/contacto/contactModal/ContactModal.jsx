@@ -6,7 +6,7 @@ export default class ContactModal extends Component {
   render() {
     return (
       <div
-        className={`modal-form-container ${this.props.isContactUsModalOpen &&
+        className={`modal-form-container fade-in ${this.props.isContactUsModalOpen &&
           "show-modal"}`}
       >
         <ContactForm contactUsModaltToggle={this.props.contactUsModaltToggle} />
